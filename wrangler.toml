@@ -5,3 +5,10 @@
 name = "creative-studio"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "./dist"
+
+# D1 数据库绑定（需先在 Cloudflare 创建 D1 数据库，将 database_id 替换为实际值）
+[[d1_databases]]
+binding = "DB"
+database_name = "creative-studio-db"
+database_id = "f3eb7574-be5d-4124-9d64-ac546538bec0"
+migrations_dir = "./migrations"

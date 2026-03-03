@@ -267,6 +267,21 @@
   transform: translateY(-1px);
 }
 
+.api-msg {
+  font-size: 0.875rem;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+.api-msg.error {
+  color: #fca5a5;
+  background: rgba(239, 68, 68, 0.15);
+}
+.api-msg.success {
+  color: #86efac;
+  background: rgba(34, 197, 94, 0.15);
+}
+
 .btn.primary:active {
   transform: translateY(0);
 }
