@@ -1,0 +1,7 @@
+# Cloudflare Pages 部署配置
+# Git 连接时自动读取此配置 (需启用 V2 构建系统)
+# 手动部署: npm run build && npx wrangler pages deploy dist --project-name=creative-studio
+
+name = "creative-studio"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "./dist"
