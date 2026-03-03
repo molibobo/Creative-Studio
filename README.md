@@ -9,6 +9,14 @@ npm install
 npm run dev
 ```
 
+本地开发时，登录/注册 API 会通过代理转发到已部署的 Cloudflare Pages。若代理地址不对，在项目根目录创建 `.env.local`：
+
+```
+API_PROXY=https://你的实际站点.pages.dev
+```
+
+（在 Cloudflare Dashboard → Pages → 你的项目 → 查看部署 URL）
+
 ## 构建
 
 ```bash
